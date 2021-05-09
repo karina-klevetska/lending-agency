@@ -1,0 +1,43 @@
+// @font-face {
+//   font-family: 'BebasNeue';
+
+//   src: local('BebasNeue'), url('../../fonts/BebasNeue-Regular.ttf') format('ttf');
+//   font-weight: normal;
+//   font-style: cursive;
+// }
+
+// @font-face {
+//   font-family: 'OpenSans';
+//   src: local('../../fonts/OpenSans-Regular.ttf') format('ttf');
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+// @font-face {
+//   font-family: 'OpenSans';
+//   src: local('../../fonts/OpenSans-SemiBold.ttf') format('ttf');
+//   font-weight: 600;
+//   font-style: normal;
+// }
+
+// @font-face {
+//   font-family: 'OpenSans';
+//   src: local('../../fonts/OpenSans-Bold.ttf') format('ttf');
+//   font-weight: 700;
+//   font-style: normal;
+// }
+
+// @font-face {
+//   font-family: 'OpenSans';
+//   src: local('../../fonts/OpenSans-ExtraBold.ttf') format('ttf');
+//   font-weight: 800;
+//   font-style: normal;
+// }
+
+:root {
+  --accent-color: #00a4e5;
+  --primary-text-color: #48555b;
+  --backgroung-white-color: #ffffff;
+}
+
+$cubic: cubic-bezier(0.4, 0, 0.2, 1);

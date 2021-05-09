@@ -1,0 +1,32 @@
+.navigation {
+  border-bottom: 1px solid #e6e6e6;
+
+  & .container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.navigation__link-logo {
+  padding-top: 24px;
+  padding-bottom: 14px;
+}
+
+.navigation__list {
+  display: flex;
+}
+
+.navigation__item:not(:last-child) {
+  margin-right: 48px;
+}
+
+.navigation__link {
+  display: inline-block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 1.09091px;
+  color: var(--primary-text-color);
+}

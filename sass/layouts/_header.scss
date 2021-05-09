@@ -1,0 +1,41 @@
+.header {
+  max-width: 1438px;
+  height: 769px;
+  background-color: var(--accent-color);
+  background-image: url(../images/bg.jpg);
+  color: var(--backgroung-white-color);
+
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    background-image: url(../images/bg@2x.jpg);
+  }
+}
+
+.header__container {
+  padding-top: 41px;
+  padding-bottom: 71px;
+  height: 769px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-title {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 60px;
+  line-height: 1.17;
+  letter-spacing: 5.70937px;
+}
+
+.header__paragraph {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.38;
+}
+
+.header__scroll {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 3.7px;
+}
